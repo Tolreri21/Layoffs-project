@@ -158,4 +158,10 @@ SELECT * FROM Layoffs;
 
 ALTER TABLE layoffs 
 DROP COLUMN ID;
+
+-- Dropping the raw 'date' column after formatting is complete
+
+ALTER TABLE layoffs 
+DROP COLUMN date;
+
 -- End of data cleaning part
