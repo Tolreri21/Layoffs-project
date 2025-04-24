@@ -122,7 +122,6 @@ WHERE ranking <= 5;
 
 ## 🙌 Credits
 
-- **Dataset Source**: [layoffs.fyi](https://layoffs.fyi)
 - **Analysis** by: Anatolii Perederii
 
 ---
