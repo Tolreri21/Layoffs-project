@@ -2,8 +2,6 @@
 
 This project is a comprehensive data visualization dashboard created using **Power BI**, aimed at analyzing global layoff trends across **regions**, **industries**, and **companies** from 2020 to 2023.
 
-![Dashboard Preview](58b6e522-24f1-483f-819c-1ccda60940d8.png)
-
 ---
 
 ## 🔍 **Overview**
@@ -89,7 +87,7 @@ GROUP BY year, month;
 
 ---
 
-### 7. `ycmt`  
+### 7. `avg_company_layoff`  
 > **Yearly average layoffs per company**
 ```sql
 -- Calculates average layoffs = total layoffs / number of companies
@@ -100,7 +98,7 @@ GROUP BY year, month;
 ## 📈 **Key Insights**
 
 - **2022** had the highest total layoffs (~160,000), while **2021** had the lowest (~16,000), but the **highest average layoffs per company**.
-- **Bytedance** had the most layoffs in a single year.
+- **Google** had the most layoffs in a single year (12000).
 - The **Consumer** and **Retail** industries were the most affected.
 
 ---
